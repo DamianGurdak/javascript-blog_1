@@ -55,17 +55,24 @@ const optArticleSelector = ".post",
 	optTitleListeSelector = ".titles";
 
 function generateTitleLinks() {
-	/* remove contents of titleList */
+	/* remove contents of titleList */		//vlear message nie działa
 
 	const titleList = document.querySelector(optTitleListeSelector);
 
 	function clearMessages() {
-		document.getElementById("messages").titleList = "";
+		document.getElementById(optTitleListeSelector).innerHTML = "";
 	}
-
 	clearMessages();
+	
+	
+
+
+
+	
 
 	/* for each article */
+	
+	const articles = optArticleSelector;
 
 	/* get the article id */
 
