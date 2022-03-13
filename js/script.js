@@ -49,3 +49,33 @@ const links = document.querySelectorAll(".titles a");
 for (let link of links) {
 	link.addEventListener("click", titleClickHandler);
 }
+
+const optArticleSelector = ".post",
+	optTitleSelector = ".post-title",
+	optTitleListeSelector = ".titles";
+
+function generateTitleLinks() {
+	/* remove contents of titleList */
+
+	const titleList = document.querySelector(optTitleListeSelector);
+
+	function clearMessages() {
+		document.getElementById("messages").titleList = "";
+	}
+
+	clearMessages();
+
+	/* for each article */
+
+	/* get the article id */
+
+	/* find the title element */
+
+	/* get the title from the title element */
+
+	/* create HTML of the link */
+
+	/* insert link into titleList */
+}
+
+generateTitleLinks();
