@@ -51,32 +51,31 @@ for (let link of links) {
 }
 
 const optArticleSelector = ".post",
-	optTitleSelector = ".post-title",
+	optTitleSelector = ".post-title", // srodek
 	optTitleListeSelector = ".titles";
 
 function generateTitleLinks() {
-	/* remove contents of titleList */		//vlear message nie działa
+	/* [IN PROGRESS] remove contents of titleList */ //clear message nie działa
 
 	const titleList = document.querySelector(optTitleListeSelector);
 
-	function clearMessages() {
-		document.getElementById(optTitleListeSelector).innerHTML = "";
-	}
-	clearMessages();
-	
-	
+	// function clearMessages() {
+	// 	document.getElementById('article').innerHTML = "";
+	// 	//.innerHTML = optTitleListeSelector;
+	// }
+	// clearMessages();
 
+	/*  [IN PROGRESS] for each article */
 
-
-	
-
-	/* for each article */
-	
 	const articles = optArticleSelector;
 
-	/* get the article id */
+	/*  [IN PROGRESS] get the article id */
 
-	/* find the title element */
+	const artcicleId = document.getElementById();
+	console.log("articleId", artcicleId);
+
+	/* find the title element */ 		//co robi inner
+
 
 	/* get the title from the title element */
 
